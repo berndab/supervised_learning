@@ -111,13 +111,13 @@
   <tbody>
     <tr>
        <td>Actual True</td>
-       <td></td>
-       <td>25</td>
+       <td>68</td>
+       <td>68</td>
     </tr>
     <tr>
       <td>Actual False</td>
-      <td></td>
-      <td></td>
+      <td>3957</td>
+      <td>13161</td>
     </tr>
   </tbody>
 </table>
@@ -245,7 +245,7 @@
 <table>
   <thead>
      <tr>
-      <th>ClusterCentroids/th>
+      <th>ClusterCentroids</th>
       <th>Pre</th>
       <th>Rec</th>
       <th>Spe</th>
