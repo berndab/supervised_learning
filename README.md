@@ -338,7 +338,11 @@
 
 ### Analysis
 
-The purpose of credit risk analysis is to identify people that are high credit risks. The models precision in predicting people that are a high risk credit should be the main metric to detmine the best performing models. This is because for financial instrituions need to have the lowest faulse postives for high credit risk in order to to remain competitive in the credit market
+Financial institutions make most of their profits providing loans to low credit-list borrowers. This is because low credit-list borrowers are the largest market share of the credit market. High credit-risk borrowers are much smaller share of the credit market because they are only able to obtain loans with much higher interest rates than the interest rates offered to low risk borrower due to their high credit risk. Thus less loans are made to these high credit-risk borrower because much fewer of them have the financial resource to pay the higher interest rate for a loan.
+
+
+Therefore, the principle goal of the credit risk analysis performed by a financial institution is to identify low credit risk borrowers so they can offer interest rates that that make them competitive in this market segment and allow them to still make a profit on the loans. Thus, the analysis of supervised learning model performance should put the most focus on the precision metric of predicting low credit-risk borrowers.
+
 
 
 
