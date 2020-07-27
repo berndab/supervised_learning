@@ -426,6 +426,192 @@
 
 ### Balanced Random Forest Classifier
 
+
+#### Target
+<table>
+  <thead>
+    <tr>
+      <th>Target Category</th>
+      <th>Count</th>
+    </tr>
+  </thead
+  <tbody>
+    <tr>
+      <td>Low Risk</td>
+      <td>68470</td>
+    </tr>
+    <tr>
+      <td>High Risk</td>
+      <td>347</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Balanced Accuracy Score
+<table>
+  <tbody>
+    <tr>
+        <td>0.8172844877946586</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Confusion Matrix
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Predicted True</th>
+      <th>Predicted False</th>
+    </tr>
+  </thead
+  <tbody>
+    <tr>
+       <td>Actual True</td>
+       <td>64</td>
+       <td>23</td>
+    </tr>
+    <tr>
+      <td>Actual False</td>
+      <td>1730</td>
+      <td>15388</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Imbalanced Classification Report
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Pre</th>
+      <th>Rec</th>
+      <th>Spe</th>
+      <th>f1</th>
+      <th>Geo</th>
+      <th>IBA</th>
+      <th>Sup</th>
+    </tr>
+  </thead
+  <tbody>
+    <tr>
+       <td>High Risk</td>
+       <td>0.04</td>
+       <td>0.74</td>
+       <td>0.90</td>
+       <td>0.07</td>
+       <td>0.81</td>
+       <td>0.65</td>
+       <td>87</td>
+    </tr>
+    <tr>
+       <td>Low Risk</td>
+       <td>1.00</td>
+       <td>0.90</td>
+       <td>0.74</td>
+       <td>0.95</td>
+       <td>0.81</td>
+       <td>0.67</td>
+       <td>17118</td>
+    </tr>
+    <tr>
+       <td>Avg/Total</td>
+       <td>0.99 </td>                                  
+       <td>0.90</td>
+       <td>0.74</td>
+       <td>0.94</td>
+       <td>0.81</td>
+       <td>0.67</td>
+       <td>17205</td>
+    </tr>
+  </tbody>
+</table>
+
+
 ### AdaBoosting
+
+
+#### Balanced Accuracy Score
+<table>
+  <tbody>
+    <tr>
+        <td>0.6264367816091954</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Confusion Matrix
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Predicted True</th>
+      <th>Predicted False</th>
+    </tr>
+  </thead
+  <tbody>
+    <tr>
+       <td>Actual True</td>
+       <td>22</td>
+       <td>65</td>
+    </tr>
+    <tr>
+      <td>Actual False</td>
+      <td>0</td>
+      <td>17118</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Imbalanced Classification Report
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Pre</th>
+      <th>Rec</th>
+      <th>Spe</th>
+      <th>f1</th>
+      <th>Geo</th>
+      <th>IBA</th>
+      <th>Sup</th>
+    </tr>
+  </thead
+  <tbody>
+    <tr>
+       <td>High Risk</td>
+       <td>1.00</td>
+       <td>0.25</td>
+       <td>1.00</td>
+       <td>0.40</td>
+       <td>0.50</td>
+       <td>0.23</td>
+       <td>87</td>
+    </tr>
+    <tr>
+       <td>Low Risk</td>
+       <td>1.00</td>
+       <td>1.00</td>
+       <td>0.25</td>
+       <td>1.00</td>
+       <td>0.50</td>
+       <td>0.27</td>
+       <td>17118</td>
+    </tr>
+    <tr>
+       <td>Avg/Total</td>                                   
+       <td>1.00</td>                                   
+       <td>1.00</td>
+       <td>0.26</td>
+       <td>1.00</td>
+       <td>0.50</td>
+       <td>0.27</td>
+       <td>17205</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 
 ### Analysis
