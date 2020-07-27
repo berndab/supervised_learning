@@ -6,9 +6,8 @@
 
 ### Random OverSampler
 
-#### Target Resamplled
+#### Target Resampled
 
-##### Resampling Data
 <table>
   <thead>
     <tr>
@@ -82,7 +81,7 @@
        <td>0.86</td>
        <td>0.05</td>
        <td>0.78</td>
-       <td>0.60 </td>
+       <td>0.60</td>
        <td>87</td>
     </tr>
     <tr>
@@ -99,7 +98,7 @@
        <td>avg / total</td>                                         
        <td>0.99</td>                                           
        <td>0.86</td>
-       <td>0.71 </td>
+       <td>0.71</td>
        <td>0.92</td>
        <td>0.78</td>
        <td>0.62</td>
@@ -109,8 +108,312 @@
 </table>
 
 ### SMOTE Oversampler
+
+#### Target Resampled
+<table>
+  <thead>
+    <tr>
+      <th>Target Category</th>
+      <th>Count</th>
+    </tr>
+  </thead
+  <tbody>
+    <tr>
+       <td>low_risk</td>
+       <td>high_risk</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+##### Balanced Accuracy Score
+<table>
+  <tbody>
+    <tr>
+        <td>0.7856360112968401</td>
+    </tr>
+  </tbody>
+</table>
+
+##### Confusion Matrix
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Predicted True</th>
+      <th>Predicted False</th>
+    </tr>
+  </thead
+  <tbody>
+    <tr>
+       <td>Actual True</td>
+       <td></td>
+       <td></td>
+    </tr>
+    <tr>
+      <td>Actual False</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+##### Imbalanced Classification Report
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>pre</th>
+      <th>rec</th>
+      <th>spe</th>
+      <th>f1</th>
+      <th>geo</th>
+      <th>iba</th>
+      <th>sup</th>
+    </tr>
+  </thead
+  <tbody>
+    <tr>
+       <td>high_risk</td>                                            
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+    </tr>
+    <tr>
+       <td>low_risk </td>                                         
+       <td></td>                                           
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+    </tr>
+    <tr>
+       <td>avg / total</td>                                         
+       <td></td>                                           
+       <td></td>
+       <td></td>
+       <td>/td>
+       <td></td>
+       <td></td>
+       <td></td>
+    </tr>
+  </tbody>
+</table>
+
 ### ClusterCentroids Undersampler
+
+
+#### Target Resampled
+<table>
+  <thead>
+    <tr>
+      <th>Target Category</th>
+      <th>Count</th>
+    </tr>
+  </thead
+  <tbody>
+    <tr>
+       <td>low_risk</td>
+       <td>high_risk</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+##### Balanced Accuracy Score
+<table>
+  <tbody>
+    <tr>
+        <td>0.7856360112968401</td>
+    </tr>
+  </tbody>
+</table>
+
+##### Confusion Matrix
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Predicted True</th>
+      <th>Predicted False</th>
+    </tr>
+  </thead
+  <tbody>
+    <tr>
+       <td>Actual True</td>
+       <td></td>
+       <td></td>
+    </tr>
+    <tr>
+      <td>Actual False</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+##### Imbalanced Classification Report
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>pre</th>
+      <th>rec</th>
+      <th>spe</th>
+      <th>f1</th>
+      <th>geo</th>
+      <th>iba</th>
+      <th>sup</th>
+    </tr>
+  </thead
+  <tbody>
+    <tr>
+       <td>high_risk</td>                                            
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+    </tr>
+    <tr>
+       <td>low_risk </td>                                         
+       <td></td>                                           
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+    </tr>
+    <tr>
+       <td>avg / total</td>                                         
+       <td></td>                                           
+       <td></td>
+       <td></td>
+       <td>/td>
+       <td></td>
+       <td></td>
+       <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
 ### SMOTEENN
+
+#### Target Resampled
+<table>
+  <thead>
+    <tr>
+      <th>Target Category</th>
+      <th>Count</th>
+    </tr>
+  </thead
+  <tbody>
+    <tr>
+       <td>low_risk</td>
+       <td>high_risk</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+##### Balanced Accuracy Score
+<table>
+  <tbody>
+    <tr>
+        <td>0.7856360112968401</td>
+    </tr>
+  </tbody>
+</table>
+
+##### Confusion Matrix
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Predicted True</th>
+      <th>Predicted False</th>
+    </tr>
+  </thead
+  <tbody>
+    <tr>
+       <td>Actual True</td>
+       <td></td>
+       <td></td>
+    </tr>
+    <tr>
+      <td>Actual False</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+##### Imbalanced Classification Report
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>pre</th>
+      <th>rec</th>
+      <th>spe</th>
+      <th>f1</th>
+      <th>geo</th>
+      <th>iba</th>
+      <th>sup</th>
+    </tr>
+  </thead
+  <tbody>
+    <tr>
+       <td>high_risk</td>                                            
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+    </tr>
+    <tr>
+       <td>low_risk </td>                                         
+       <td></td>                                           
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+    </tr>
+    <tr>
+       <td>avg / total</td>                                         
+       <td></td>                                           
+       <td></td>
+       <td></td>
+       <td>/td>
+       <td></td>
+       <td></td>
+       <td></td>
+    </tr>
+  </tbody>
+</table>
 
 ### Analysis
 
