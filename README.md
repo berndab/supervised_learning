@@ -2,10 +2,19 @@
 
 ## Overview
 
-# Logistic Regression using Sampling Techniquest
+## Logistic Regression Results Using Different Sampling Techniques
 
-## Random Sampling
+### Random OverSampler
+### SMOTE Oversampler
+### ClusterCentroids Undersampler
+### SMOTEENN
 
+### Analysis
 
-# Ensemble Learning
+## Ensemble Learning
 
+### Balanced Random Forest Classifier
+
+### AdaBoosting
+
+### Analysis
