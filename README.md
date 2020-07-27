@@ -18,11 +18,11 @@
   </thead
   <tbody>
     <tr>
-      <td>low_risk</td>
+      <td>Low Risk</td>
       <td>51352</td>
      </tr>
     <tr>
-      <td>high_risk</td>
+      <td>High Risk</td>
       <td>51352</td>
     </tr>
   </tbody>
@@ -65,18 +65,18 @@
   <thead>
     <tr>
       <th></th>
-      <th>pre</th>
-      <th>rec</th>
-      <th>spe</th>
+      <th>Pre</th>
+      <th>Rec</th>
+      <th>Spe</th>
       <th>f1</th>
-      <th>geo</th>
-      <th>iba</th>
-      <th>sup</th>
+      <th>Geo</th>
+      <th>IBA</th>
+      <th>Sup</th>
     </tr>
   </thead
   <tbody>
     <tr>
-       <td>high_risk</td>
+       <td>High Risk</td>
        <td>0.02</td>
        <td>0.71</td>
        <td>0.86</td>
@@ -86,7 +86,7 @@
        <td>87</td>
     </tr>
     <tr>
-       <td>low_risk </td>
+       <td>Low Risk </td>
        <td>1.00</td>
        <td>0.86</td>
        <td>0.71</td>
@@ -96,7 +96,7 @@
        <td>17118</td>
     </tr>
     <tr>
-       <td>avg / total</td>
+       <td>Avg/Total</td>
        <td>0.99</td>
        <td>0.86</td>
        <td>0.71</td>
@@ -122,11 +122,11 @@
   </thead
   <tbody>
     <tr>
-      <td>low_risk</td>
+      <td>Low Risk</td>
       <td>51352</td>
     </tr>
     <tr>
-      <td>high_risk</td>
+      <td>High Risk</td>
       <td>51352</td>
     </tr>
   </tbody>
@@ -169,18 +169,18 @@
   <thead>
     <tr>
       <th></th>
-      <th>pre</th>
-      <th>rec</th>
-      <th>spe</th>
+      <th>Pre</th>
+      <th>Rec</th>
+      <th>Spe</th>
       <th>f1</th>
-      <th>geo</th>
-      <th>iba</th>
-      <th>sup</th>
+      <th>Geo</th>
+      <th>IBA</th>
+      <th>Sup</th>
     </tr>
   </thead
   <tbody>
     <tr>
-      <td>high_risk</td>
+      <td>High Risk</td>
       <td>0.03</td>
       <td>0.71</td>
       <td>0.88</td>
@@ -190,17 +190,17 @@
       <td>87</td>
     </tr>
     <tr>
-      <td>low_risk </td>
+      <td>Low Risk </td>
       <td>1.00</td>
       <td>0.88</td>
       <td>0.71</td>
-      </td>0.94</td>
+      <td>0.94</td>
       <td>0.79</td>
       <td>0.64</td>
       <td>17118</td>
     </tr>
     <tr>
-      <td>avg / total</td>
+      <td>Avg/Total</td>
       <td>0.99</td>
       <td>0.88</td>
       <td>0.71</td>
@@ -226,11 +226,11 @@
   </thead
   <tbody>
     <tr>
-      <td>low_risk</td>
+      <td>Low Risk</td>
       <td>260</td>
     </tr>
-    <tr?
-      <td>high_risk</td>
+    <tr>
+      <td>High Risk</td>
       <td>260</td>
     </tr>
   </tbody>
@@ -271,20 +271,20 @@
 #### Imbalanced Classification Report
 <table>
   <thead>
-    <tr>
+     <tr>
       <th></th>
-      <th>pre</th>
-      <th>rec</th>
-      <th>spe</th>
+      <th>Pre</th>
+      <th>Rec</th>
+      <th>Spe</th>
       <th>f1</th>
-      <th>geo</th>
-      <th>iba</th>
-      <th>sup</th>
+      <th>Geo</th>
+      <th>IBA</th>
+      <th>Sup</th>
     </tr>
   </thead
   <tbody>
     <tr>
-       <td>high_risk</td>
+       <td>High Risk</td>
        <td>0.02</td>
        <td>0.78</td>
        <td>0.77</td>
@@ -294,7 +294,7 @@
        <td>87</td>
     </tr>
     <tr>
-       <td>low_risk</td>
+       <td>Low Risk</td>
        <td>1.00</td>
        <td>0.77</td>
        <td>0.78</td>
@@ -304,7 +304,7 @@
        <td>17118</td>
     </tr>
     <tr>
-       <td>avg / total</td>
+       <td>Avg/Total</td>
        <td>0.99</td>
        <td>0.77</td>
        <td>0.78</td>
@@ -330,11 +330,11 @@
   </thead
   <tbody>
     <tr>
-      <td>low_risk</td>
+      <td>Low Risk</td>
       <td>62022</td>
     </tr>
     <tr>
-      <td>high_risk</td>
+      <td>High Risk</td>
       <td>68458</td>
     </tr>
   </tbody>
@@ -377,18 +377,18 @@
   <thead>
     <tr>
       <th></th>
-      <th>pre</th>
-      <th>rec</th>
-      <th>spe</th>
+      <th>Pre</th>
+      <th>Rec</th>
+      <th>Spe</th>
       <th>f1</th>
-      <th>geo</th>
-      <th>iba</th>
-      <th>sup</th>
+      <th>Geo</th>
+      <th>IBA</th>
+      <th>Sup</th>
     </tr>
   </thead
   <tbody>
     <tr>
-       <td>high_risk</td>
+       <td>High Risk</td>
        <td>0.01</td>
        <td>0.83</td>
        <td>0.36</td>
@@ -398,7 +398,7 @@
        <td>87</td>
     </tr>
     <tr>
-       <td>low_risk</td>
+       <td>Low Risk</td>
        <td>1.00</td>
        <td>0.36</td>
        <td>0.83</td>
@@ -408,7 +408,7 @@
        <td>17118</td>
     </tr>
     <tr>
-       <td>avg / total</td>                                   
+       <td>Avg/Total</td>                                   
        <td>0.99</td>
        <td>0.36</td>
        <td>0.83</td>
