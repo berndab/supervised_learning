@@ -338,7 +338,8 @@
 
 ### Analysis
 
-GETTING TO THIS!!
+The purpose of credit risk analysis is to identify people that are high credit risks. The models precision in predicting people that are a high risk credit should be the main metric to detmine the best performing models. This is because for financial instrituions need to have the lowest faulse postives for high credit risk in order to to remain competitive in the credit market
+
 
 
 ## Ensemble Learning
