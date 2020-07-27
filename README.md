@@ -27,6 +27,7 @@
     </tr>
   </tbody>
 </table>
+
 ##### Balanced Accuracy Score
 <table>
   <tbody>
