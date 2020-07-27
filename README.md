@@ -537,4 +537,4 @@ Therefore, the financial institution should use the sampling technique of SMOTE 
 
 ### Analysis
 
-GETTING TO THIS!!
+In the analysis above it was determined that the machine learning model that will perform the best in analyzing credit risk would be a model with high precision classifying low credit-risk borrows and high recall in predicting high credit-risk borrowers. Both the ensemble random forest model and AdaBoost model have lower precision classifying low credit-risk borrows and lower recall in predicting high credit-risk borrowers then the logistic regression models using resampling techniques. Thus, these models would not perform as well for credit risk analysis. Using logistic regression model with the SMOTE resampling technique would still perform best for credit risk analysis.
