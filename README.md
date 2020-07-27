@@ -5,35 +5,52 @@
 ## Logistic Regression Results Using Different Sampling Techniques
 
 
-
-### Random OverSampler
-
 #### Target Resampled
 <table>
   <thead>
     <tr>
       <th>Target Category</th>
-      <th>Count</th>
+      <th>Random OverSampler</th>
+      <th>SMOTE Oversampler</th>
+      <th>ClusterCentroids Undersampler</th>
+      <th>SMOTEENN</th>
     </tr>
   </thead
   <tbody>
     <tr>
       <td>Low Risk</td>
       <td>51352</td>
+      <td>51352</td>
+      <td>260</td>
+      <td>62022</td>
      </tr>
     <tr>
       <td>High Risk</td>
       <td>51352</td>
-    </tr>
+      <td>51352</td>
+      <td>260</td>
+      <td>68458</td>
+     </tr>
   </tbody>
 </table>
 
 #### Balanced Accuracy Score
 <table>
+  <thead>
+    <tr>
+      <th>Random OverSampler</th>
+      <th>SMOTE Oversampler</th>
+      <th>ClusterCentroids Undersampler</th>
+      <th>SMOTEENN</th>
+    </tr>
+  </thead
   <tbody>
     <tr>
       <td>0.7856360112968401</td>
-    </tr>
+      <td>0.7966770207605626</td>
+      <td>0.7752245065690078</td>
+      <td>0.5926399313487315</td>
+   </tr>
   </tbody>
 </table>
 
@@ -41,7 +58,7 @@
 <table>
   <thead>
     <tr>
-      <th></th>
+      <th>Random OverSampler</th>
       <th>Predicted True</th>
       <th>Predicted False</th>
     </tr>
@@ -60,11 +77,81 @@
   </tbody>
 </table>
 
+
+<table>
+  <thead>
+    <tr>
+      <th>SMOTE Oversampler</th>
+      <th>Predicted True</th>
+      <th>Predicted False</th>
+    </tr>
+  </thead
+  <tbody>
+    <tr>
+       <td>Actual True</td>
+       <td>62</td>
+       <td>25</td>
+    </tr>
+    <tr>
+      <td>Actual False</td>
+      <td>2042</td>
+      <td>15076</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>ClusterCentroids Undersampler</th>
+      <th>Predicted True</th>
+      <th>Predicted False</th>
+    </tr>
+  </thead
+  <tbody>
+    <tr>
+       <td>Actual True</td>
+       <td></td>
+       <td>25</td>
+    </tr>
+    <tr>
+      <td>Actual False</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>SMOTEENN</th>
+      <th>Predicted True</th>
+      <th>Predicted False</th>
+    </tr>
+  </thead
+  <tbody>
+    <tr>
+       <td>Actual True</td>
+       <td>72</td>
+       <td>15</td>
+    </tr>
+    <tr>
+      <td>Actual False</td>
+      <td>10995</td>
+      <td>6123</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
 #### Imbalanced Classification Report
 <table>
   <thead>
     <tr>
-      <th></th>
+      <th>Random OverSampler</th>
       <th>Pre</th>
       <th>Rec</th>
       <th>Spe</th>
@@ -108,67 +195,10 @@
   </tbody>
 </table>
 
-
-
-### SMOTE Oversampler
-
-#### Target Resampled
 <table>
   <thead>
     <tr>
-      <th>Target Category</th>
-      <th>Count</th>
-    </tr>
-  </thead
-  <tbody>
-    <tr>
-      <td>Low Risk</td>
-      <td>51352</td>
-    </tr>
-    <tr>
-      <td>High Risk</td>
-      <td>51352</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Balanced Accuracy Score
-<table>
-  <tbody>
-    <tr>
-        <td>0.7966770207605626</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Confusion Matrix
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th>Predicted True</th>
-      <th>Predicted False</th>
-    </tr>
-  </thead
-  <tbody>
-    <tr>
-       <td>Actual True</td>
-       <td>62</td>
-       <td>25</td>
-    </tr>
-    <tr>
-      <td>Actual False</td>
-      <td>2042</td>
-      <td>15076</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Imbalanced Classification Report
-<table>
-  <thead>
-    <tr>
-      <th></th>
+      <th>SMOTE Oversampler</th>
       <th>Pre</th>
       <th>Rec</th>
       <th>Spe</th>
@@ -212,67 +242,10 @@
   </tbody>
 </table>
 
-
-
-### ClusterCentroids Undersampler
-
-#### Target Resampled
-<table>
-  <thead>
-    <tr>
-      <th>Target Category</th>
-      <th>Count</th>
-    </tr>
-  </thead
-  <tbody>
-    <tr>
-      <td>Low Risk</td>
-      <td>260</td>
-    </tr>
-    <tr>
-      <td>High Risk</td>
-      <td>260</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Balanced Accuracy Score
-<table>
-  <tbody>
-    <tr>
-        <td>0.7752245065690078</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Confusion Matrix
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th>Predicted True</th>
-      <th>Predicted False</th>
-    </tr>
-  </thead
-  <tbody>
-    <tr>
-       <td>Actual True</td>
-       <td>68</td>
-       <td>19</td>
-    </tr>
-    <tr>
-      <td>Actual False</td>
-      <td>3957</td>
-      <td>13161</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Imbalanced Classification Report
 <table>
   <thead>
      <tr>
-      <th></th>
+      <th>ClusterCentroids Undersampler</th>
       <th>Pre</th>
       <th>Rec</th>
       <th>Spe</th>
@@ -316,67 +289,10 @@
   </tbody>
 </table>
 
-
-
-### SMOTEENN
-
-#### Target Resampled
 <table>
   <thead>
     <tr>
-      <th>Target Category</th>
-      <th>Count</th>
-    </tr>
-  </thead
-  <tbody>
-    <tr>
-      <td>Low Risk</td>
-      <td>62022</td>
-    </tr>
-    <tr>
-      <td>High Risk</td>
-      <td>68458</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Balanced Accuracy Score
-<table>
-  <tbody>
-    <tr>
-        <td>0.5926399313487315</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Confusion Matrix
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th>Predicted True</th>
-      <th>Predicted False</th>
-    </tr>
-  </thead
-  <tbody>
-    <tr>
-       <td>Actual True</td>
-       <td>72</td>
-       <td>15</td>
-    </tr>
-    <tr>
-      <td>Actual False</td>
-      <td>10995</td>
-      <td>6123</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Imbalanced Classification Report
-<table>
-  <thead>
-    <tr>
-      <th></th>
+      <th>SMOTEENN</th>
       <th>Pre</th>
       <th>Rec</th>
       <th>Spe</th>
