@@ -81,7 +81,7 @@
 <table>
   <thead>
     <tr>
-      <th>SMOTE Oversampler</th>
+      <th>SMOTE</th>
       <th>Predicted True</th>
       <th>Predicted False</th>
     </tr>
@@ -103,7 +103,7 @@
 <table>
   <thead>
     <tr>
-      <th>ClusterCentroids Undersampler</th>
+      <th>ClusterCentroids</th>
       <th>Predicted True</th>
       <th>Predicted False</th>
     </tr>
@@ -198,7 +198,7 @@
 <table>
   <thead>
     <tr>
-      <th>SMOTE Oversampler</th>
+      <th>SMOTE</th>
       <th>Pre</th>
       <th>Rec</th>
       <th>Spe</th>
@@ -245,7 +245,7 @@
 <table>
   <thead>
      <tr>
-      <th>ClusterCentroids Undersampler</th>
+      <th>ClusterCentroids/th>
       <th>Pre</th>
       <th>Rec</th>
       <th>Spe</th>
