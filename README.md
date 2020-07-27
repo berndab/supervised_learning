@@ -408,7 +408,7 @@
        <td>17118</td>
     </tr>
     <tr>
-       <td>Avg/Total</td>                                   
+       <td>Avg/Total</td>
        <td>0.99</td>
        <td>0.36</td>
        <td>0.83</td>
@@ -516,7 +516,7 @@
     </tr>
     <tr>
        <td>Avg/Total</td>
-       <td>0.99 </td>                                  
+       <td>0.99</td>
        <td>0.90</td>
        <td>0.74</td>
        <td>0.94</td>
@@ -599,8 +599,8 @@
        <td>17118</td>
     </tr>
     <tr>
-       <td>Avg/Total</td>                                   
-       <td>1.00</td>                                   
+       <td>Avg/Total</td>
+       <td>1.00</td>
        <td>1.00</td>
        <td>0.26</td>
        <td>1.00</td>
