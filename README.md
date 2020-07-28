@@ -362,7 +362,7 @@ To achieve these two goals of
 the financial institution must choose a machine learning model that 
 
 * Predicts low-credit-risk borrowers with high precision and a high recall 
-* Predicts high credit-risk borrowers with a high recall
+* Predicts high-credit-risk borrowers with a high recall
 
 Looking at the candidate machine learning models for predicting credit risk, all of them predict low-credit-risk borrowers with a precision of 1. Therefore, the two machine learning models with the lowest sensitivity in predicting low-credit-risk borrowers, logistic regression with cluster centroids resampling and logistic regression with SMOTEENN resampling, can be eliminated. 
 
@@ -576,7 +576,11 @@ This limited analysis has concluded that the logistic regression with SMOTE resa
 In the analysis above it was determined that the machine learning model that will perform the best in analyzing credit risk would be a model that
 
 * Predicts low-credit-risk borrowers with high precision and a high recall 
-* Predicts high credit-risk borrowers with a high recall
+* Predicts high-credit-risk borrowers with a high recall
 
 
-Both the ensemble random forest model and AdaBoost model have lower precision classifying low credit-risk borrows and lower recall in predicting high credit-risk borrowers then the logistic regression models using resampling techniques. Thus, these models would not perform as well for credit risk analysis. Using logistic regression model with the SMOTE resampling technique would still perform best for credit risk analysis.
+Both the ensemble random forest model and AdaBoost model have higher precision and higher recall in classifying low credit-risk borrows than the logistic regression model with SMOTE resampling. However the AdaBosst model has a much lower recall in prediction high-credit-risk borrowers while Random Forest has a higher recall in predicting high-credit-risk borrower. 
+
+#### Conclusion
+
+The performance data for the Random Forest model indicates that is should be a better model for classifying credit risk than the logistic regression model with SMOTE resampling model.
