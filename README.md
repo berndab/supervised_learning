@@ -18,14 +18,14 @@ The performance statistics are analyzed to determine the best model resampling p
 ## Credit Risk Classification Model Peformance Statistics
 
 
-#### Target Resampled Count
+#### Model Target Resampled Count
 <table>
   <thead>
     <tr>
       <th>Target Category</th>
-      <th>Random OverSampler</th>
-      <th>SMOTE Oversampler</th>
-      <th>ClusterCentroids Undersampler</th>
+      <th>Random Over Sampling</th>
+      <th>SMOTE Over Sampling</th>
+      <th>ClusterCentroids Under Sampling</th>
       <th>SMOTEENN</th>
     </tr>
   </thead
@@ -47,13 +47,13 @@ The performance statistics are analyzed to determine the best model resampling p
   </tbody>
 </table>
 
-#### Balanced Accuracy Score
+#### Balanced Accuracy Scores
 <table>
   <thead>
     <tr>
-      <th>Random OverSampler</th>
-      <th>SMOTE Oversampler</th>
-      <th>ClusterCentroids Undersampler</th>
+      <th>Random Over Sampling</th>
+      <th>SMOTE Over Sampling</th>
+      <th>ClusterCentroids Under Sampling</th>
       <th>SMOTEENN</th>
     </tr>
   </thead
@@ -67,11 +67,11 @@ The performance statistics are analyzed to determine the best model resampling p
   </tbody>
 </table>
 
-#### Confusion Matrix
+#### Confusion Matrices 
 <table>
   <thead>
     <tr>
-      <th>Random OverSampler</th>
+      <th>Random Over Sampling</th>
       <th>Predicted High Risk</th>
       <th>Predicted Low Risk</th>
     </tr>
@@ -94,7 +94,7 @@ The performance statistics are analyzed to determine the best model resampling p
 <table>
   <thead>
     <tr>
-      <th>SMOTE</th>
+      <th>SMOTE Over Sampling</th>
       <th>Predicted High Risk</th>
       <th>Predicted Low Risk</th>
     </tr>
@@ -116,7 +116,7 @@ The performance statistics are analyzed to determine the best model resampling p
 <table>
   <thead>
     <tr>
-      <th>ClusterCentroids</th>
+      <th>ClusterCentroids Under Sampling</th>
       <th>Predicted High Risk</th>
       <th>Predicted Low Risk</th>
     </tr>
@@ -160,11 +160,11 @@ The performance statistics are analyzed to determine the best model resampling p
 
 
 
-#### Imbalanced Classification Report
+#### Imbalanced Classification Reports
 <table>
   <thead>
     <tr>
-      <th>Random OverSampler</th>
+      <th>Random Over Sampling</th>
       <th>Precision</th>
       <th>Recall</th>
       <th>Specificity</th>
@@ -211,7 +211,7 @@ The performance statistics are analyzed to determine the best model resampling p
 <table>
   <thead>
     <tr>
-      <th>SMOTE</th>
+      <th>SMOTE Over Sampling</th>
       <th>Precision</th>
       <th>Recall</th>
       <th>Specificity</th>
@@ -258,7 +258,7 @@ The performance statistics are analyzed to determine the best model resampling p
 <table>
   <thead>
      <tr>
-      <th>ClusterCentroids</th>
+      <th>ClusterCentroids Under Sampling</th>
       <th>Precision</th>
       <th>Recall</th>
       <th>Specificity</th>
