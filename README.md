@@ -338,10 +338,16 @@
 
 ### Analysis
 
-Financial institutions make most of their profits providing loans to low credit-risk borrowers. This is because low credit-risk borrowers are the largest market share of the credit market. High credit-risk borrowers are much smaller share of the credit market because they are only able to obtain loans with much higher interest rates and much fewer of high credit risk borrowers have the financial resource to pay a higher interest rate for a loan. The financial institution wants to avoid misclassifying a low credit-risk borrowers as a high credit-risk borrowers because that will reduce the number of loans issued to the borrower that are the biggest and most profitable segment of the credit market.
+Financial institutions make most of their profits providing loans to low credit-risk borrowers. This is because low credit-risk borrowers are the largest market share of the credit market. High credit-risk borrowers are much smaller share of the credit market because they are only able to obtain loans with much higher interest rates and much fewer of high credit risk borrowers have the financial resource to pay a higher interest rate for a loan. The financial institution wants to avoid misclassifying a low credit-risk borrowers as a high credit-risk borrowers because that will reduce the number of loans issued to the borrowers that are the biggest and most profitable segment of the credit market.
 
-In addition, financial institutions want to minimize losses do to load defaults. To do this the financial institution needs to minimize the amount of loans give to low credit-risk borrowers. Therefore, if a potential borrower is a high credit-risk, the financial institution wants to avoid misclassifying the borrower as a low credit-risk borrower. 
-In order to achieve these two goal of minimizing false positives when classifying low credit-risk borrower, and maximizing true positives when classifying high credit-risk client, the financial institution should choose a machine learning model that has high precision in identifying low credit-risk clients and high sensitivity when identifying high credit-risk borrowers.
+In addition, financial institutions want to minimize losses do to load defaults. To do this the financial institution needs to minimize the amount of loans given to high credit-risk borrowers. Therefore, if a potential borrower is a high credit-risk, the financial institution wants to avoid misclassifying the borrower as a low credit-risk borrower. 
+
+In order to achieve these two goals of 
+
+* Minimizing false negatives when classifying low credit-risk borrower
+* Maximizing true positives when classifying high credit-risk client
+
+the financial institution should choose a machine learning model that has high precision in identifying low credit-risk clients and high sensitivity when identifying high credit-risk borrowers.
 
 Therefore, the financial institution should use the sampling technique of SMOTE when using a logistic regression machine learning model because it has the highest precision in predicting low credit-risk clients and the highest sensitivity in predicting high credit-risk clients. This will maximize the number of loans make to low credit-risk client and minimize the number of loans made to high credit-risk clients. Using the SMOTE sampling mode with logistic regression will maximize both their market share of the low credit-risk market segment and maximize profits from this market share while it will minimize their market share of the high credit-risk market segment and minimize losses from loans made to borrowers in this market segment. 
 
