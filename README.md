@@ -59,18 +59,18 @@
   <thead>
     <tr>
       <th>Random OverSampler</th>
-      <th>Predicted True</th>
-      <th>Predicted False</th>
+      <th>Predicted High Risk</th>
+      <th>Predicted Low Risk</th>
     </tr>
   </thead
   <tbody>
     <tr>
-       <td>Actual True</td>
+       <td>Actually High Risk</td>
        <td>62</td>
        <td>25</td>
     </tr>
     <tr>
-      <td>Actual False</td>
+      <td>Actually Low Risk</td>
       <td>2420</td>
       <td>14698</td>
     </tr>
@@ -82,18 +82,18 @@
   <thead>
     <tr>
       <th>SMOTE</th>
-      <th>Predicted True</th>
-      <th>Predicted False</th>
+      <th>Predicted High Risk</th>
+      <th>Predicted Low Risk</th>
     </tr>
   </thead
   <tbody>
     <tr>
-       <td>Actual True</td>
+       <td>Actually High Risk</td>
        <td>62</td>
        <td>25</td>
     </tr>
     <tr>
-      <td>Actual False</td>
+      <td>Actually Low Risk</td>
       <td>2042</td>
       <td>15076</td>
     </tr>
@@ -104,18 +104,18 @@
   <thead>
     <tr>
       <th>ClusterCentroids</th>
-      <th>Predicted True</th>
-      <th>Predicted False</th>
+      <th>Predicted High Risk</th>
+      <th>Predicted Low Risk</th>
     </tr>
   </thead
   <tbody>
     <tr>
-       <td>Actual True</td>
+       <td>Actually High Risk</td>
        <td>68</td>
-       <td>68</td>
+       <td>19</td>
     </tr>
     <tr>
-      <td>Actual False</td>
+      <td>Actually Low Risk</td>
       <td>3957</td>
       <td>13161</td>
     </tr>
@@ -126,18 +126,18 @@
   <thead>
     <tr>
       <th>SMOTEENN</th>
-      <th>Predicted True</th>
-      <th>Predicted False</th>
+      <th>Predicted High Risk</th>
+      <th>Predicted Low Risk</th>
     </tr>
   </thead
   <tbody>
     <tr>
-       <td>Actual True</td>
+       <td>Actually High Risk</td>
        <td>72</td>
        <td>15</td>
     </tr>
     <tr>
-      <td>Actual False</td>
+      <td>Actually Low Risk</td>
       <td>10995</td>
       <td>6123</td>
     </tr>
@@ -385,18 +385,18 @@ Therefore, the financial institution should use the sampling technique of SMOTE 
   <thead>
     <tr>
       <th></th>
-      <th>Predicted True</th>
-      <th>Predicted False</th>
+      <th>Predicted High Risk</th>
+      <th>Predicted Low Risk</th>
     </tr>
   </thead
   <tbody>
     <tr>
-       <td>Actual True</td>
+       <td>Actually High Risk</td>
        <td>64</td>
        <td>23</td>
     </tr>
     <tr>
-      <td>Actual False</td>
+      <td>Actually Low Risk</td>
       <td>1730</td>
       <td>15388</td>
     </tr>
@@ -469,18 +469,18 @@ Therefore, the financial institution should use the sampling technique of SMOTE 
   <thead>
     <tr>
       <th></th>
-      <th>Predicted True</th>
-      <th>Predicted False</th>
+      <th>Predicted High Risk</th>
+      <th>Predicted Low Risk</th>
     </tr>
   </thead
   <tbody>
     <tr>
-       <td>Actual True</td>
+       <td>Actually High Risk</td>
        <td>22</td>
        <td>65</td>
     </tr>
     <tr>
-      <td>Actual False</td>
+      <td>Actually Low Risk</td>
       <td>0</td>
       <td>17118</td>
     </tr>
