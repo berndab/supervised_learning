@@ -341,13 +341,15 @@
 Financial institutions make most of their profits providing loans to low-credit-risk borrowers. This is because low-credit-risk borrowers are the largest market share of the credit market. High credit-risk borrowers are much smaller share of the credit market. This is because they are only able to obtain loans with much higher interest rates. Therefore, fewer of these borrowers have the financial resources to pay a higher interest rate for a loan. In order maximize their share of the low-credit-risk segment of the credit market and maximize profits from this market segment,  financial institution wants to maximize the number of loans made to low-credit-risk borrows. To do this, they must minimized misclassifying high credit-risk borrowers as low-credit-risk borrowers and minimize misclassifying low-credit-risk borrowers as high-credit-risk borrowers. 
 
 
-In addition, financial institutions want to minimize losses do to load defaults. To do this these institution needs to minimize the amount of loans given to high credit-risk borrowers. Therefore, if a potential borrower is a high credit-risk, the financial institution wants to avoid misclassifying the borrower as a low-credit-risk borrower. Since high-credit-risk borrowers are a small part of the credit market, financial institution are willing to have a high number of low-credit-risk borrowers classified as high credit-risk borrows in order to insure a high number of actual high-credit-risk borrowers are classified accurately. This is because the total number of borrow classified as high credit-risk borrowers overall will be much small even including misclassified low-credit-risk borrows. 
+In addition, financial institutions want to minimize losses do to loan defaults. To do this these institution needs to minimize the amount of loans given to high credit-risk borrowers. Therefore, if a potential borrower is a high credit-risk, the financial institution wants to avoid misclassifying the borrower as a low-credit-risk borrower. Since high-credit-risk borrowers are a small part of the credit market, financial institution are willing to have a high number of low-credit-risk borrowers classified as high credit-risk borrows in order to insure a high number of actual high-credit-risk borrowers are classified accurately. This is because the total number of borrow classified as high credit-risk borrowers overall will be much small even including misclassified low-credit-risk borrows. 
 
 
 To achieve these two goals of
 * Maximizing the number of loans made to low-credit-risk borrowers
 * Insuring that actual high credit-risk borrowers are predicted as high credit-risk borrowers
+
 the financial institution must choose a machine learning model that 
+
 * Predicts low-credit-risk borrowers with high precision and a high recall 
 * Predicting high credit-risk borrowers with a high sensitivity
 
