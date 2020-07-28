@@ -2,9 +2,11 @@
 
 ## Overview
 
-This project evaluates the performance of machine learning, credit risk classification models based on the logistic regression machine learning model paired with with various resampling techniques 
+### Logistic Regression Model with Resampling Techniques Evaluation
 
-The logistic regression machine learning model is created with each of the following resampling techniques
+Part 1 of this project evaluates the performance of machine learning, credit risk classification models based on the logistic regression machine learning model paired with with various resampling techniques 
+
+A logistic regression machine learning model is created with each of the following resampling techniques
 
 * Random Oversampling
 * SMOTE Oversampling
@@ -12,11 +14,47 @@ The logistic regression machine learning model is created with each of the follo
 * SMOTEENN
 
 Model performance statistic for each model sampling pair combination is generated 
-The performance statistics are analyzed to determine the best model resampling pair model for classifying credit risk
+The performance statistics are analyzed to determine the best performing model resampling pair for classifying credit risk
+
+### Ensemble Learning Model Evaluation
+
+Part two of this project evaluates the performance of machine learning, credit risk classification models based on the ensemble learning models
+
+Two ensemble machine learning models are created 
+
+* Balanced Random Forest
+* AdaBoost
+
+Model performance statistic for each ensemble machine learning model is generated 
+The performance statistics are for these models are compared to the performance statistics for the best performing logistic regression resampling technique model to determine if any of the ensemble learning models perform better then the best performing logistic regression resampling model
 
 
-## Credit Risk Classification Model Peformance Statistics
 
+## Credit Risk Classification Model Peformance StatisticsPart 1 of this project evaluates the performance of machine learning, credit risk classification models based on the logistic regression machine learning model paired with with various resampling techniques 
+
+A logistic regression machine learning model is created with each of the following resampling techniques
+
+* Random Oversampling
+* SMOTE Oversampling
+* ClusterCentroids Undersampling
+* SMOTEENN
+
+Model performance statistic for each model sampling pair combination is generated 
+The performance statistics are analyzed to determine the best performing model resampling pair for classifying credit risk
+
+### Ensemble Learning Model Evaluation
+
+Part two of this project evaluates the performance of machine learning, credit risk classification models based on the ensemble learning models
+
+Two ensemble machine learning models are created 
+
+* Balanced Random Forest
+* AdaBoost
+
+Model performance statistic for each ensemble machine learning model is generated 
+The performance statistics are for these models are compared to the performance statistics for the best performing logistic regression resampling technique model to determine if any of the ensemble learning models perform better then the best performing logistic regression resampling model
+
+### Logistic Regression Resampling Technique Models
 
 #### Model Target Resampled Count
 <table>
@@ -383,7 +421,7 @@ This limited analysis has concluded that the logistic regression with SMOTE resa
 
 
 
-## Ensemble Learning
+### Ensemble Learning Models
 
 ### Balanced Random Forest Classifier
 
