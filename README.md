@@ -16,7 +16,7 @@ A logistic regression machine learning model is created with each of the followi
 Model performance statistic for each model sampling pair combination is generated 
 The performance statistics are analyzed to determine the best performing model resampling pair for classifying credit risk
 
-### Ensemble Learning Model Evaluation
+### Ensemble Learning Models Evaluation
 
 Part two of this project evaluates the performance of machine learning, credit risk classification models based on the ensemble learning models
 
@@ -30,7 +30,7 @@ The performance statistics are for these models are compared to the performance 
 
 
 
-## Credit Risk Classification Model Peformance StatisticsPart 1 of this project evaluates the performance of machine learning, credit risk classification models based on the logistic regression machine learning model paired with with various resampling techniques 
+## Credit Risk Classification Model Peformance Statistics 
 
 A logistic regression machine learning model is created with each of the following resampling techniques
 
