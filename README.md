@@ -29,32 +29,9 @@ Model performance statistic for each ensemble machine learning model is generate
 The performance statistics are for these models are compared to the performance statistics for the best performing logistic regression resampling technique model to determine if any of the ensemble learning models perform better then the best performing logistic regression resampling model
 
 
+## Logistic Regression Resampling Technique Models
 
-## Credit Risk Classification Model Peformance Statistics 
-
-A logistic regression machine learning model is created with each of the following resampling techniques
-
-* Random Oversampling
-* SMOTE Oversampling
-* ClusterCentroids Undersampling
-* SMOTEENN
-
-Model performance statistic for each model sampling pair combination is generated 
-The performance statistics are analyzed to determine the best performing model resampling pair for classifying credit risk
-
-### Ensemble Learning Model Evaluation
-
-Part two of this project evaluates the performance of machine learning, credit risk classification models based on the ensemble learning models
-
-Two ensemble machine learning models are created 
-
-* Balanced Random Forest
-* AdaBoost
-
-Model performance statistic for each ensemble machine learning model is generated 
-The performance statistics are for these models are compared to the performance statistics for the best performing logistic regression resampling technique model to determine if any of the ensemble learning models perform better then the best performing logistic regression resampling model
-
-### Logistic Regression Resampling Technique Models
+### Model Performance Statistics
 
 #### Model Target Resampled Count
 <table>
