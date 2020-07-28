@@ -26,7 +26,7 @@ Two ensemble machine learning models are created
 * AdaBoost
 
 Model performance statistic for each ensemble machine learning model is generated 
-The performance statistics are for these models are compared to the performance statistics for the best performing logistic regression resampling technique model to determine if any of the ensemble learning models perform better then the best performing logistic regression resampling model
+The performance statistics are for these models are compared to the performance statistics for the best performing logistic regression resampling technique model to determine if any of the ensemble learning models perform better than the best performing logistic regression resampling model
 
 
 ## Logistic Regression Resampling Technique Models
