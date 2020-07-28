@@ -4,7 +4,7 @@
 
 ### Logistic Regression Model with Resampling Techniques Evaluation
 
-Part 1 of this project evaluates the performance of machine learning, credit risk classification models based on the logistic regression machine learning model paired with with various resampling techniques 
+Part one  evaluates the performance of machine learning, credit risk classification models based on the logistic regression machine learning model paired with with various resampling techniques 
 
 A logistic regression machine learning model is created with each of the following resampling techniques
 
@@ -18,7 +18,7 @@ The performance statistics are analyzed to determine the best performing model r
 
 ### Ensemble Learning Models Evaluation
 
-Part two of this project evaluates the performance of machine learning, credit risk classification models based on the ensemble learning models
+Part two evaluates the performance of machine learning, credit risk classification models based on the ensemble learning models
 
 Two ensemble machine learning models are created 
 
