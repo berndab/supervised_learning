@@ -444,13 +444,13 @@ This limited analysis has concluded that the logistic regression with SMOTE resa
   <thead>
     <tr>
       <th></th>
-      <th>Pre</th>
+      <th>Precision</th>
       <th>Recall</th>
       <th>Specificity</th>
       <th>f1</th>
       <th>Geometric Mean</th>
       <th>Index Balanced Accuracy</th>
-      <th>Sup</th>
+      <th>Count</th>
     </tr>
   </thead
   <tbody>
