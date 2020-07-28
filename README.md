@@ -1,11 +1,23 @@
-# Supervised Learning
+# Supervised Learning Credit Risk Classification
 
 ## Overview
 
-## Logistic Regression Results Using Different Sampling Techniques
+This project evaluates the performance of machine learning, credit risk classification models based on the logistic regression machine learning model paired with with various resampling techniques 
+
+The logistic regression machine learning model is created with each of the following resampling techniques
+
+* Random Oversampling
+* SMOTE Oversampling
+* ClusterCentroids Undersampling
+* SMOTEENN
+
+and model performance data each model sampling pair combination is generated and analyzed to determine the best model resampling pair model for classifying credit risk
 
 
-#### Target Resampled
+## Credit Risk Classification Model Peformance Statistics
+
+
+#### Target Resampled Count
 <table>
   <thead>
     <tr>
