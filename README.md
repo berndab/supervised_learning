@@ -158,7 +158,7 @@
       <th>f1</th>
       <th>Geometric Mean</th>
       <th>Index Balanced Accuracy</th>
-      <th>Sup</th>
+      <th>Count</th>
     </tr>
   </thead
   <tbody>
@@ -205,7 +205,7 @@
       <th>f1</th>
       <th>Geometric Mean</th>
       <th>Index Balanced Accuracy</th>
-      <th>Sup</th>
+      <th>Count</th>
     </tr>
   </thead
   <tbody>
@@ -252,7 +252,7 @@
       <th>f1</th>
       <th>Geometric Mean</th>
       <th>Index Balanced Accuracy</th>
-      <th>Sup</th>
+      <th>Count</th>
     </tr>
   </thead
   <tbody>
@@ -299,7 +299,7 @@
       <th>f1</th>
       <th>Geometric Mean</th>
       <th>Index Balanced Accuracy</th>
-      <th>Sup</th>
+      <th>Count</th>
     </tr>
   </thead
   <tbody>
@@ -498,7 +498,7 @@ Therefore, the financial institution should use the sampling technique of SMOTE 
       <th>f1</th>
       <th>Geometric Mean</th>
       <th>Index Balanced Accuracy</th>
-      <th>Sup</th>
+      <th>Count</th>
     </tr>
   </thead
   <tbody>
