@@ -341,19 +341,28 @@
 Financial institutions make most of their profits providing loans to low-credit-risk borrowers. This is because low-credit-risk borrowers are the largest market share of the credit market. High credit-risk borrowers are much smaller share of the credit market. This is because they are only able to obtain loans with much higher interest rates. Therefore, fewer of these borrowers have the financial resources to pay a higher interest rate for a loan. In order maximize their share of the low-credit-risk segment of the credit market and maximize profits from this market segment,  financial institution wants to maximize the number of loans made to low-credit-risk borrows. To do this, they must minimized misclassifying high credit-risk borrowers as low-credit-risk borrowers and minimize misclassifying low-credit-risk borrowers as high-credit-risk borrowers. 
 
 
-In addition, financial institutions want to minimize losses do to loan defaults. To do this these institution needs to minimize the amount of loans given to high credit-risk borrowers. Therefore, if a potential borrower is a high credit-risk, the financial institution wants to avoid misclassifying the borrower as a low-credit-risk borrower. Since high-credit-risk borrowers are a small part of the credit market, financial institution are willing to have a high number of low-credit-risk borrowers classified as high credit-risk borrows in order to insure a high number of actual high-credit-risk borrowers are classified accurately. This is because the total number of borrow classified as high credit-risk borrowers overall will be much small even including misclassified low-credit-risk borrows. 
-
+In addition, financial institutions want to minimize losses do to load defaults. To do this these institution needs to minimize the amount of loans given to high credit-risk borrowers. Therefore, if a potential borrower is a high credit-risk, the financial institution wants to avoid misclassifying the borrower as a low-credit-risk borrower. Since high-credit-risk borrowers are a small part of the credit market, financial institution are willing to have a high number of low-credit-risk borrowers classified as high credit-risk borrows in order to insure a high number of actual high-credit-risk borrowers are classified accurately. This is because the total number of borrow classified as high credit-risk borrowers overall will be much small even including misclassified low-credit-risk borrows. 
 
 To achieve these two goals of
-* Maximizing the number of loans made to low-credit-risk borrowers
-* Insuring that actual high credit-risk borrowers are predicted as high credit-risk borrowers
+*Maximizing the number of loans made to low-credit-risk borrowers
+*Insuring that actual high credit-risk borrowers are predicted as high credit-risk borrowers
 
 the financial institution must choose a machine learning model that 
 
-* Predicts low-credit-risk borrowers with high precision and a high recall 
-* Predicting high credit-risk borrowers with a high sensitivity
+*Predicts low-credit-risk borrowers with high precision and a high recall 
+*Predicting high credit-risk borrowers with a high sensitivity
 
-Looking at the candidate machine learning models for predicting credit risk. all the them have a predict low-credit-risk borrowers with a precision of 1. Therefore, the two machine learning models with the lowest sensitivity in predicting low-credit-risk borrowers, logistic regression using  cluster centroids resampling and logistic regression using SMOTEENN resampling, can be eliminated. The two remaining models, logistic regression using random resampling and logistic regression using SMOTE, have the same sensitivity in predicting high-credit-risk borrowers. However SMOTE, has slightly higher precision in predicting high-credit-risk borrows which will reduce the number of low-credit-risk borrows classified has high-credit-risk borrower. Therefore, the logistic regression with SMOTE would have the highest number of actual low-credit-risk borrowers predicted as low-credit-risk borrowers. Therefore this model would result it the financial instruction making the maximum number of loads to low-credit-risk borrower and maximize the profits made by the financial institution. Therefore the logistic regression with SMOTE resampling would be the best model to use by financial institutions for credit risk prediction. 
+Looking at the candidate machine learning models for predicting credit risk, all of them predict low-credit-risk borrowers with a precision of 1. Therefore, the two machine learning models with the lowest sensitivity in predicting low-credit-risk borrowers, logistic regression using  cluster centroids resampling and logistic regression using SMOTEENN resampling, can be eliminated. 
+
+
+The two remaining models, logistic regression using random resampling and logistic regression using SMOTE, have the same sensitivity in predicting high-credit-risk borrowers. However SMOTE, has slightly higher precision in predicting high-credit-risk borrows which will reduce the number of low-credit-risk borrows classified has high-credit-risk borrower. Therefore, the logistic regression with SMOTE would have the highest number of actual low-credit-risk borrowers predicted as low-credit-risk borrowers. Financial instruction using this machine learning model will make the maximum number of loans to these low-credit-risk borrowers and maximize profits dues to issuing the maximum number of loans to this high profit segment of the credit market. Therefore, the logistic regression with SMOTE resampling would be the best model to use by financial institutions for credit risk prediction. 
+
+
+The balance accuracy score for logistic regression with SMOTE resampling model and logistic regression with random resampling model confirms that logistic regression with SMOTE is a better model to use for credit risk prediction due to its higher score. 
+
+#### Conclusion
+
+The logistic regression with SMOTE resampling machine learning model is the best model for financial institutions to use for credit risk predictions
 
 
 
