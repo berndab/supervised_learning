@@ -109,9 +109,9 @@ The performance statistics are for the two ensemble models are compared to the p
       <td>14698</td>
     </tr>
     <tr>
-      <td>&nbsp;</th>
-      <td>&nbsp;</th>
-      <td>&nbsp;</th>
+      <td></th>
+      <td></th>
+      <td></th>
     </tr>
     <tr>
       <td>SMOTE Over Sampling</th>
@@ -129,9 +129,9 @@ The performance statistics are for the two ensemble models are compared to the p
       <td>15076</td>
     </tr>
     <tr>
-      <td>&nbsp;</th>
-      <td>&nbsp;</th>
-      <td>&nbsp;</th>
+      <td></th>
+      <td></th>
+      <td></th>
     </tr>
     <tr>
       <td>Cluster Centroids Under Sampling</td>
@@ -149,9 +149,9 @@ The performance statistics are for the two ensemble models are compared to the p
       <td>13161</td>
     </tr>
     <tr>
-      <td>&nbsp;</th>
-      <td>&nbsp;</th>
-      <td>&nbsp;</th>
+      <td></th>
+      <td></th>
+      <td></th>
     </tr>
     <tr>
       <td>SMOTEENN</td>
@@ -178,7 +178,7 @@ The performance statistics are for the two ensemble models are compared to the p
 <table>
   <thead>
     <tr>
-      <th>Random Over Sampling</th>
+      <th>Sampling Type</th>
       <th>Precision</th>
       <th>Recall</th>
       <th>Specificity</th>
@@ -189,6 +189,16 @@ The performance statistics are for the two ensemble models are compared to the p
     </tr>
   </thead
   <tbody>
+    <tr>
+       <td>Random Over Sampling</td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+    </tr>
     <tr>
        <td>High Risk</td>
        <td>0.02</td>
@@ -219,23 +229,26 @@ The performance statistics are for the two ensemble models are compared to the p
        <td>0.62</td>
        <td>17205</td>
     </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
     <tr>
-      <th>SMOTE Over Sampling</th>
-      <th>Precision</th>
-      <th>Recall</th>
-      <th>Specificity</th>
-      <th>f1</th>
-      <th>Geometric Mean</th>
-      <th>Index Balanced Accuracy</th>
-      <th>Count</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
-  </thead
-  <tbody>
+    <tr>
+      <td>SMOTE Over Sampling</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
     <tr>
       <td>High Risk</td>
       <td>0.03</td>
@@ -247,7 +260,7 @@ The performance statistics are for the two ensemble models are compared to the p
       <td>87</td>
     </tr>
     <tr>
-      <td>Low Risk </td>
+      <td>Low Risk</td>
       <td>1.00</td>
       <td>0.88</td>
       <td>0.71</td>
@@ -266,23 +279,26 @@ The performance statistics are for the two ensemble models are compared to the p
       <td>0.64</td>
       <td>17205</td>
     </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-     <tr>
-      <th>ClusterCentroids Under Sampling</th>
-      <th>Precision</th>
-      <th>Recall</th>
-      <th>Specificity</th>
-      <th>f1</th>
-      <th>Geometric Mean</th>
-      <th>Index Balanced Accuracy</th>
-      <th>Count</th>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
-  </thead
-  <tbody>
+    <tr>
+      <td>ClusterCentroids Under Sampling</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
     <tr>
        <td>High Risk</td>
        <td>0.02</td>
@@ -313,23 +329,26 @@ The performance statistics are for the two ensemble models are compared to the p
        <td>0.60</td>
        <td>17205</td>
     </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
     <tr>
-      <th>SMOTEENN</th>
-      <th>Precision</th>
-      <th>Recall</th>
-      <th>Specificity</th>
-      <th>f1</th>
-      <th>Geometric Mean</th>
-      <th>Index Balanced Accuracy</th>
-      <th>Count</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
-  </thead
-  <tbody>
+    <tr>
+      <td>SMOTEENN</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
     <tr>
        <td>High Risk</td>
        <td>0.01</td>
