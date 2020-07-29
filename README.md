@@ -30,14 +30,13 @@ Model performance statistic are generated for each ensemble model.
 
 The performance statistics are for the two ensemble models are compared to the performance statistics for the best performing logistic regression and resampling technique model to determine if any of the ensemble learning models perform better than the chosen logistic regression resampling model.
 
-
 ## Logistic Regression Resampling Technique Models
 
 ### Model Performance Statistics
 
 #### Model Target Resampled Count
 <table>
-  <thead>
+  <thead style="background-color: black">
     <tr>
       <th>Target Category</th>
       <th>Random Over Sampling</th>
@@ -111,7 +110,7 @@ The performance statistics are for the two ensemble models are compared to the p
 <table>
   <thead>
     <tr>
-      <th>SMOTE Over Sampling</th>
+      <th>SMOTE Over Sampling&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
       <th>Predicted High Risk</th>
       <th>Predicted Low Risk</th>
     </tr>
@@ -133,7 +132,7 @@ The performance statistics are for the two ensemble models are compared to the p
 <table>
   <thead>
     <tr>
-      <th>ClusterCentroids Under Sampling</th>
+      <th>Cluster Centroids Under Sampling</th>
       <th>Predicted High Risk</th>
       <th>Predicted Low Risk</th>
     </tr>
