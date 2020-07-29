@@ -118,8 +118,6 @@ The performance statistics are for the two ensemble models are compared to the p
       <td></th>
       <td></th>
     </tr>
-  </thead
-  <tbody>
     <tr>
        <td>Actually High Risk</td>
        <td>62</td>
@@ -130,18 +128,16 @@ The performance statistics are for the two ensemble models are compared to the p
       <td>2042</td>
       <td>15076</td>
     </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
     <tr>
-      <th>Cluster Centroids Under Sampling</th>
-      <th>Predicted High Risk</th>
-      <th>Predicted Low Risk</th>
+      <td>&nbsp;</th>
+      <td>&nbsp;</th>
+      <td>&nbsp;</th>
     </tr>
-  </thead
-  <tbody>
+    <tr>
+      <td>Cluster Centroids Under Sampling</td>
+      <td></td>
+      <td></td>
+    </tr>
     <tr>
        <td>Actually High Risk</td>
        <td>68</td>
@@ -152,18 +148,16 @@ The performance statistics are for the two ensemble models are compared to the p
       <td>3957</td>
       <td>13161</td>
     </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
     <tr>
-      <th>SMOTEENN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-      <th>Predicted High Risk</th>
-      <th>Predicted Low Risk</th>
+      <td>&nbsp;</th>
+      <td>&nbsp;</th>
+      <td>&nbsp;</th>
     </tr>
-  </thead
-  <tbody>
+    <tr>
+      <td>SMOTEENN</td>
+      <td>Predicted High Risk</td>
+      <td>Predicted Low Risk</td>
+    </tr>
     <tr>
        <td>Actually High Risk</td>
        <td>72</td>
