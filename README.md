@@ -19,16 +19,16 @@ The performance statistics for all model pairs are analyzed and compared to dete
 
 ### Ensemble Learning Models Evaluation
 
-Part two evaluates the performance of machine learning, credit risk classification models based on the ensemble learning models,
+Part two evaluates the performance of machine learning, credit risk classification models based on the ensemble machine learning models.
 
 Two ensemble machine learning models are created 
 
 * Balanced Random Forest
 * AdaBoost
 
-Model performance statistic are generated for each ensemble machine learning model.
+Model performance statistic are generated for each ensemble model.
 
-The performance statistics are for these models are compared to the performance statistics for the best performing logistic regression resampling technique model to determine if any of the ensemble learning models perform better than the chosen logistic regression resampling model.
+The performance statistics are for the two ensemble models are compared to the performance statistics for the best performing logistic regression and resampling technique model to determine if any of the ensemble learning models perform better than the chosen logistic regression resampling model.
 
 
 ## Logistic Regression Resampling Technique Models
