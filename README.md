@@ -239,6 +239,16 @@ The performance statistics are for the two ensemble models are compared to the p
       <td></td>
       <td></td>
     </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
     <tr>
       <td>SMOTE Over Sampling</td>
       <td></td>
@@ -290,6 +300,16 @@ The performance statistics are for the two ensemble models are compared to the p
       <td></td>
     </tr>
     <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>ClusterCentroids Under Sampling</td>
       <td></td>
       <td></td>
@@ -328,6 +348,16 @@ The performance statistics are for the two ensemble models are compared to the p
        <td>0.78</td>
        <td>0.60</td>
        <td>17205</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td></td>
