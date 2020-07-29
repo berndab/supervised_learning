@@ -19,7 +19,7 @@ The performance statistics for all model pairs are analyzed and compared to dete
 
 ### Ensemble Learning Models Evaluation
 
-Part two evaluates the performance of machine learning, credit risk classification models based on the ensemble machine learning models.
+Part two evaluates the performance of machine learning, credit risk classification models based on ensemble machine learning models.
 
 Two ensemble machine learning models are created 
 
@@ -368,11 +368,12 @@ The performance statistics are for the two ensemble models are compared to the p
 
 ### Analysis
 
-#### Overview 
-Financial institutions make most of their profits providing loans to low-credit-risk borrowers. This is because low-credit-risk borrowers are the largest market segment of the credit market and have the lowest loan default rate. High-credit-risk borrowers are much smaller segment of the credit market because they either cannot qualify for a loan or can only obtain a loan with much higher interest rates. Therefore, financial institutions must maximize the loans that they make to the low-credit-risk credit market segment in order to maximize their profits.
+#### Overview
+
+Financial institutions make most of their profits providing loans to low-credit-risk borrowers. This is because low-credit-risk borrowers are the largest market segment of the credit market and have the lowest loan default rate. High-credit-risk borrowers are much smaller segment of the credit market because they either cannot qualify for a loan or can only obtain a loan with much higher interest rates. Therefore, financial institutions must maximize the loans that they issue to the low-credit-risk credit borrowers in order to maximize their profits.
 
 
-To maximize the low-credit-risk loans made, the primary goal of the credit risk classification process of these financial institutions is to accurately classify low-credit-risk borrowers.  If their credit risk classification processes misclassifies a significant number of high-credit-risk borrower as low-credit-risk, these institutions it will significantly reduce their profits because these mistakenly issued loans would have a much higher default rate then expected. Therefore, any credit risk classification machine learning model implemented must have a high precision in predicting low-credit-risk borrowers.
+To maximize the number of low-credit-risk loans issued, the primary goal of the credit risk classification process of these financial institutions is to accurately classify low-credit-risk borrowers. If their credit risk classification processes misclassifies a significant number of low-credit-risk borrower as high-credit-risk, these institutions will mistakenly not issue loan to a significant number of these low-credit-risk borrowers and will not realize the profits that these loans would generate. Therefore, any credit risk classification, machine learning model implemented must have a high precision in predicting low-credit-risk borrowers.
 
 
 The secondary goal of the credit risk classification process for these institutions must be to minimize the number of low-credit-risk borrowers that are misclassified as high-credit-risk borrows. If a significant number of low-credit-risk borrowers are misclassified as high-credit-risk, then they would be denied a loan by mistake. This would reduce the financial institutions profits and reduce their market share the their target low-credit-risk market segment. Therefore, any credit risk classification machine learning model implemented must also have a high recall in predicting low-credit-risk borrowers.
