@@ -4,7 +4,7 @@
 
 ### Logistic Regression Model with Resampling Techniques Evaluation
 
-Part one  evaluates the performance of machine learning, credit risk classification models based on the logistic regression machine learning model paired with with various resampling techniques 
+Part one  evaluates the performance of machine learning, credit risk classification models based on the logistic regression machine learning model paired with with various resampling techniques. 
 
 A logistic regression machine learning model is created with each of the following resampling techniques
 
@@ -13,20 +13,22 @@ A logistic regression machine learning model is created with each of the followi
 * ClusterCentroids Undersampling
 * SMOTEENN
 
-Model performance statistic for each model sampling pair combination is generated 
-The performance statistics are analyzed to determine the best performing model resampling pair for classifying credit risk
+Model performance statistic are generated for each model sampling pair combination.
+
+The performance statistics are analyzed to determine the best performing model resampling pair for classifying credit risk.
 
 ### Ensemble Learning Models Evaluation
 
-Part two evaluates the performance of machine learning, credit risk classification models based on the ensemble learning models
+Part two evaluates the performance of machine learning, credit risk classification models based on the ensemble learning models,
 
 Two ensemble machine learning models are created 
 
 * Balanced Random Forest
 * AdaBoost
 
-Model performance statistic for each ensemble machine learning model is generated 
-The performance statistics are for these models are compared to the performance statistics for the best performing logistic regression resampling technique model to determine if any of the ensemble learning models perform better than the best performing logistic regression resampling model
+Model performance statistic are generated for each ensemble machine learning model.
+
+The performance statistics are for these models are compared to the performance statistics for the best performing logistic regression resampling technique model to determine if any of the ensemble learning models perform better than the chosen logistic regression resampling model.
 
 
 ## Logistic Regression Resampling Technique Models
@@ -398,7 +400,7 @@ This limited analysis has concluded that the logistic regression with SMOTE resa
 
 
 
-### Ensemble Learning Models
+## Ensemble Learning Models
 
 ### Balanced Random Forest Classifier
 
