@@ -87,12 +87,17 @@ The performance statistics are for the two ensemble models are compared to the p
 <table>
   <thead>
     <tr>
-      <th>Random Over Sampling</th>
+      <th>Sampling Type</th>
       <th>Predicted High Risk</th>
       <th>Predicted Low Risk</th>
     </tr>
   </thead
   <tbody>
+    <tr>
+      <td>Random Over Sampling</td>
+      <td></th>
+      <td></th>
+    </tr>
     <tr>
        <td>Actually High Risk</td>
        <td>62</td>
@@ -103,16 +108,15 @@ The performance statistics are for the two ensemble models are compared to the p
       <td>2420</td>
       <td>14698</td>
     </tr>
-  </tbody>
-</table>
-
-
-<table>
-  <thead>
     <tr>
-      <th>SMOTE Over Sampling&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-      <th>Predicted High Risk</th>
-      <th>Predicted Low Risk</th>
+      <td>&nbsp;</th>
+      <td>&nbsp;</th>
+      <td>&nbsp;</th>
+    </tr>
+    <tr>
+      <td>SMOTE Over Sampling</th>
+      <td></th>
+      <td></th>
     </tr>
   </thead
   <tbody>
@@ -154,7 +158,7 @@ The performance statistics are for the two ensemble models are compared to the p
 <table>
   <thead>
     <tr>
-      <th>SMOTEENN</th>
+      <th>SMOTEENN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
       <th>Predicted High Risk</th>
       <th>Predicted Low Risk</th>
     </tr>
