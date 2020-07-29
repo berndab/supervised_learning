@@ -13,9 +13,9 @@ A logistic regression machine learning model is created with each of the followi
 * ClusterCentroids Undersampling
 * SMOTEENN
 
-Model performance statistic are generated for each model sampling pair combination.
+Model performance statistic are generated for each model and resampling method combination.
 
-The performance statistics are analyzed to determine the best performing model resampling pair for classifying credit risk.
+The performance statistics for all model pairs are analyzed and compared to determine the best performing model and resampling method combination for classifying credit risk.
 
 ### Ensemble Learning Models Evaluation
 
