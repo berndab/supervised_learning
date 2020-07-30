@@ -419,41 +419,26 @@ The performance statistics for the two ensemble machine learning models are comp
 Financial institutions make most of their profits providing loans to low-credit-risk borrowers. This is because low-credit-risk borrowers are the largest segment of the credit market and have the lowest average loan default rate. High-credit-risk borrowers are much smaller segment of the credit market because they either cannot qualify for a loan or can only obtain a loan with much higher interest rate. Therefore, financial institutions must maximize the number of loans that they issue to low-credit-risk borrowers in order to maximize their profits.
 
 
-To maximize the number of low-credit-risk loans issued, the highest priority goal of the credit risk classification process must be to accurately classify low-credit-risk borrowers. If the credit risk classification process misclassifies a significant number of low-credit-risk borrowers as high-credit-risk (false negatives), loans will mistakenly be denied to a significant number of low-credit-risk borrowers and financial institutions will not realize the profits that these loans would have generated if issued. Therefore, any machine learning model implemented as part of the credit classification process must have a high precision in classifying low-credit-risk borrowers.
+To maximize the number of low-credit-risk loans issued, the highest priority goal of the credit risk classification process must be to accurately classify low-credit-risk borrowers. If the credit risk classification process misclassifies a significant number of low-credit-risk borrowers as high-credit-risk (false negatives), loans will mistakenly be denied to a significant number of these borrowers and financial institutions will not realize the profits that these loans would have generated if issued. Therefore, any machine learning model implemented as part of the credit classification process must have a high precision in classifying low-credit-risk borrowers.
 
 
-The secondary goal of the credit risk classification process must be to minimize the number of high-credit-risk borrowers that are misclassified as low-credit-risk. In the source credit data set, only 0.5% of the borrowers were a high-credit-risk. However, the source data only contains credit information for 17,205 borrowers. This data set is too small of a sample to accurately represent the distribution of high and low credit risk borrows of the whole credit market. Data on loan default rates from the Federal Reserve Bank of St. Louis show that aggregate [loan default rates ranges from 1.5 to 7.5 %](https://fred.stlouisfed.org/series/DRALACBN) depending on economic conditions at the time of these defaults. If a financial institution were to misclassify 7% of high-credit-risk borrowers as a low-credit-risk and the loans, erroneously issued to these borrowers, were to go into default, the losses from these mistakenly issued loans would unnecessarily reduced the profits of the financial institution. Therefore, any machine learning model implemented as part of the credit classification process must have a high recall in classifying low-credit-risk borrowers.
+The secondary goal of the credit risk classification process must be to minimize the number of high-credit-risk borrowers that are misclassified as low-credit-risk. In the credit data training set, only 0.5% of the borrowers were a high-credit-risk. However, the training data only contains credit information for 17,205 borrowers. This is too small of a sample to accurately represent the distribution of high and low credit risk borrows of the credit market as a whole. Data on loan default rates from the Federal Reserve Bank of St. Louis show that aggregate [loan default rates ranges from 1.5 to 7.5 %](https://fred.stlouisfed.org/series/DRALACBN) depending on economic conditions at the time of these defaults. If a financial institution were to misclassify 7% of high-credit-risk borrowers as a low-credit-risk and the loans, erroneously issued to these borrowers, were to go into default, the losses from these mistakenly issued loans would unnecessarily reduced the profits of the financial institution. Therefore, any machine learning model implemented as part of the credit classification process must have a high recall in classifying low-credit-risk borrowers.
 
 
-The third goal of the credit risk classification process must be to minimize losses from loan defaults. To do this, financial institution needs to minimize the amount of loans given to high credit-risk borrowers. If a borrower is an actual high credit-risk, the credit classification process must accurately classify the borrower as a high-credit-risk. Since high-credit-risk borrowers are a small part of the credit market, financial institution are willing to have a slightly higher number of low-credit-risk borrowers misclassified as high-credit-risk (false positives), in order to insure a high probability of classifying actual high-credit-risk borrowers as high-credit-risk. This is because the total number of borrows classified as high credit-risk overall will be small, even when including the number of low-credit-risk borrowers misclassified as high-credit-risk. The credit risk classification process could include an additional step to further reviews the credit history of all borrowers classified as high-credit-risk in order to correct the misclassification of low-credit-risk borrowers as high-credit-risk. Any machine learning model implemented as part of the credit classification process must have a high recall in predicting high-credit-risk borrowers. In addition, the credit classification process can tolerate a machine learning model with a moderately lower precision of classifying high-credit-risk borrowers (increased false positives) in order to have a higher recall in classifying actual high-credit-risk borrowers.
+The third goal of the credit risk classification process must be to minimize losses from loan defaults. To do this, financial institution needs to minimize the amount of loans given to high credit-risk borrowers. If a borrower is an actual high credit-risk, the credit classification process must accurately classify the borrower as a high-credit-risk. Since high-credit-risk borrowers are a small part of the credit market, financial institution are willing to have a slightly higher number of low-credit-risk borrowers misclassified as high-credit-risk (false positives), in order to insure a high probability of classifying actual high-credit-risk borrowers as high-credit-risk. This is because the total number of borrows classified as high credit-risk overall will be small, even when including the number of low-credit-risk borrowers misclassified as high-credit-risk. The credit risk classification process could include an additional step to further reviews the credit history of all borrowers classified as high-credit-risk in order to correct the misclassification of low-credit-risk borrowers. Any machine learning model implemented as part of the credit classification process must have a high recall in predicting high-credit-risk borrowers. In addition, the credit classification process can tolerate a machine learning model with a moderately lower precision of classifying high-credit-risk borrowers (increased false positives) in order to have a higher recall in classifying actual high-credit-risk borrowers.
 
 
 
 In summary to achieve these two goals of
 
 * Maximizing the number of loans made to low-credit-risk borrowers and therefore maximize profits
-* Insuring that actual high credit-risk borrowers are predicted as high credit-risk and mimimize losses
-a 
+* Insuring that actual high credit-risk borrowers are predicted as high credit-risk and therefor mimimize losses
+ 
 the financial institution must implement a machine learning model that
 
 * Classifies low-credit-risk borrowers with a high precision and high recall
 * Classifies high-credit-risk borrowers with a high recall
-  * Can tolerate lower precision in classifying high-credit-risk borrowers in order for th model to have higher recall in classifying high-credit-risk borrowers
-
-
-
-In summary to achieve these two goals of
-
-* Maximizing the number of loans made to low-credit-risk borrowers 
-* Insuring that actual high credit-risk borrowers are predicted as high credit-risk
-
-the financial institution must implement a machine learning model that
-
-* Classifies low-credit-risk borrowers with the highest precision and the highest recall
-* Classifies high-credit-risk borrowers with the highest recall
-  * Can tolerate lower precision in classifying high-credit-risk borrowers in order to classify them with higher recall
-
-
+  * Can tolerate lower precision in classifying high-credit-risk borrowers in order for the model to have higher recall in classifying high-credit-risk borrowers
 
 #### Model Peformance Comparison
 
