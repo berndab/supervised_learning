@@ -550,7 +550,7 @@ This limited analysis has concluded that the logistic regression with SMOTE resa
 <table>
   <thead>
     <tr>
-      <th></th>
+      <th> Ensemble Model</th>
       <th>Precision</th>
       <th>Recall</th>
       <th>Specificity</th>
@@ -561,6 +561,16 @@ This limited analysis has concluded that the logistic regression with SMOTE resa
     </tr>
   </thead
   <tbody>
+    <tr>
+      <td>Balanced Random Forest Classifier</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
     <tr>
        <td>High Risk</td>
        <td>0.04</td>
@@ -591,51 +601,36 @@ This limited analysis has concluded that the logistic regression with SMOTE resa
        <td>0.67</td>
        <td>17205</td>
     </tr>
-  </tbody>
-</table>
-
-
-### AdaBoosting
-
-
-#### Confusion Matrix
-<table>
-  <thead>
     <tr>
-      <th></th>
-      <th>Predicted High Risk</th>
-      <th>Predicted Low Risk</th>
-    </tr>
-  </thead
-  <tbody>
-    <tr>
-       <td>Actually High Risk</td>
-       <td>22</td>
-       <td>65</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td>Actually Low Risk</td>
-      <td>0</td>
-      <td>17118</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
-  </tbody>
-</table>
-
-#### Imbalanced Classification Report
-<table>
-  <thead>
     <tr>
-      <th></th>
-      <th>Precision</th>
-      <th>Recall</th>
-      <th>Specificity</th>
-      <th>f1</th>
-      <th>Geometric Mean</th>
-      <th>Index Balanced Accuracy</th>
-      <th>Count</th>
+      <td>AdaBoosting</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
-  </thead
-  <tbody>
     <tr>
        <td>High Risk</td>
        <td>1.00</td>
