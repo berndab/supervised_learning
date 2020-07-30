@@ -462,34 +462,39 @@ This limited analysis has concluded that the logistic regression with SMOTE resa
 
 ## Ensemble Learning Models
 
-### Balanced Random Forest Classifier
-
 #### Target
+
 <table>
   <thead>
     <tr>
       <th>Target Category</th>
-      <th>Count</th>
+      <th>Balanced Random Forest Classifier</th>
     </tr>
   </thead
   <tbody>
     <tr>
       <td>Low Risk</td>
-      <td>68470</td>
-    </tr>
+      <td>51352</td>
+     </tr>
     <tr>
       <td>High Risk</td>
-      <td>347</td>
-    </tr>
+      <td>51352</td>
+     </tr>
   </tbody>
 </table>
 
+
 #### Balanced Accuracy Score
 <table>
+  <thead>
+    <th>Balanced Random Forest Classifier</th>
+    <th>AdaBoost</th>
+  </thead>
   <tbody>
     <tr>
         <td>0.8172844877946586</td>
-    </tr>
+        <td>0.6264367816091954</td>
+   </tr>
   </tbody>
 </table>
 
@@ -497,12 +502,17 @@ This limited analysis has concluded that the logistic regression with SMOTE resa
 <table>
   <thead>
     <tr>
-      <th></th>
+      <th>Sampling Type</th>
       <th>Predicted High Risk</th>
       <th>Predicted Low Risk</th>
     </tr>
-  </thead
+  </thea<
   <tbody>
+    <tr>
+      <td>Balanced Random Forest Classifier</td>
+      <td></th>
+      <td></th>
+    </tr>
     <tr>
        <td>Actually High Risk</td>
        <td>64</td>
@@ -512,6 +522,26 @@ This limited analysis has concluded that the logistic regression with SMOTE resa
       <td>Actually Low Risk</td>
       <td>1730</td>
       <td>15388</td>
+    </tr>
+    <tr>
+      <td></th>
+      <td></th>
+      <td></th>
+    </tr>
+    <tr>
+      <td>AdaBoost</th>
+      <td></th>
+      <td></th>
+    </tr>
+    <tr>
+       <td>Actually High Risk</td>
+       <td>22</td>
+       <td>65</td>
+    </tr>
+    <tr>
+      <td>Actually Low Risk</td>
+      <td>0</td>
+      <td>17118</td>
     </tr>
   </tbody>
 </table>
@@ -567,15 +597,6 @@ This limited analysis has concluded that the logistic regression with SMOTE resa
 
 ### AdaBoosting
 
-
-#### Balanced Accuracy Score
-<table>
-  <tbody>
-    <tr>
-        <td>0.6264367816091954</td>
-    </tr>
-  </tbody>
-</table>
 
 #### Confusion Matrix
 <table>
