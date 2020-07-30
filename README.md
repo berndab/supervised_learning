@@ -2,11 +2,11 @@
 
 ## Overview
 
-### Logistic Regression Model with Resampling Techniques Evaluation
+### Part One - Logistic Regression Model with Resampling Techniques Evaluation
 
-Part one  evaluates the performance of machine learning, credit risk classification models based on the logistic regression machine learning model paired with with various resampling techniques. 
+Part one  evaluates the performance of machine learning, credit risk classification models based on the logistic regression machine learning model paired with with various resampling methods. 
 
-A logistic regression machine learning model is created with each of the following resampling techniques
+A logistic regression machine learning model is created with each of the following resampling methods
 
 * Random Oversampling
 * SMOTE Oversampling
@@ -17,7 +17,7 @@ Model performance statistic are generated for each model and resampling method c
 
 The performance statistics for all model pairs are analyzed and compared to determine the best performing model and resampling method combination for classifying credit risk.
 
-### Ensemble Learning Models Evaluation
+### Part Two - Ensemble Learning Models Evaluation
 
 Part two evaluates the performance of machine learning, credit risk classification models based on ensemble machine learning models.
 
@@ -28,7 +28,7 @@ Two ensemble machine learning models are created
 
 Model performance statistic are generated for each ensemble model.
 
-The performance statistics are for the two ensemble models are compared to the performance statistics for the best performing logistic regression and resampling technique model to determine if any of the ensemble learning models perform better than the chosen logistic regression resampling model.
+The performance statistics for the two ensemble machine learning models are compared to the performance statistics of the selected logistic regression sampling model from part one to determine if any of the ensemble learning models perform better at credit risk classification than the model chosen in part one.
 
 ## Logistic Regression Resampling Technique Models
 
