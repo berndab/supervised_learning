@@ -32,20 +32,20 @@ The performance statistics for the two ensemble machine learning models are comp
 
 ### Technical Summary
 #### Python Modules and Classes Used
-|Module                             |Class                              | |Module                             |Class                              |
-|-----------------------------------|-----------------------------------|-|-----------------------------------|-----------------------------------|
-|**Environment**                    |                                   | |**Models**                         |                                   |
-|Anaconda                           |                                   | |sklearn.linear_model               |LogisticRegression                 |
-|**Application**                    |                                   | |imblearn.ensemble                  |BalancedRandomForestClassifier     |
-|Jupyter Notebook                   |                                   | |**Scaler**                         |                                   |
-|**Data Analysis**                  |                                   | |sklearn.ensemble                   |AdaBoostClassifier                 |
-|pandas                             |                                   | |sklearn.preprocessing              |StandardScaler                     |
-|numpy                              |                                   | |**Metrics**                        |                                   |
-|**Sampling Algorithms**            |                                   | |imblearn.metrics                   |classification_report_imbalanced   |
-|imblearn.combine                   |SMOTEENN                           | |sklearn.metrics                    |Balanced_accuracy_score            |
-|imblearn.over_sampling             |RandomOverSampler                  | |                                   |Confusion_matrix                   |
-|                                   |SMOTE                              | |**Utils**                          |                                   |
-|imblearn.under_sampling            |ClusterCentroids                   | |sklearn.model_selection            |train_test_split                   |
+|Module                             |Class                              |Module                             |Class                              |
+|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
+|**Environment**                    |                                   |**Models**                         |                                   |
+|Anaconda                           |                                   |sklearn.linear_model               |LogisticRegression                 |
+|**Application**                    |                                   |imblearn.ensemble                  |BalancedRandomForestClassifier     |
+|Jupyter Notebook                   |                                   |**Scaler**                         |                                   |
+|**Data Analysis**                  |                                   |sklearn.ensemble                   |AdaBoostClassifier                 |
+|pandas                             |                                   |sklearn.preprocessing              |StandardScaler                     |
+|numpy                              |                                   |**Metrics**                        |                                   |
+|**Sampling Algorithms**            |                                   |imblearn.metrics                   |classification_report_imbalanced   |
+|imblearn.combine                   |SMOTEENN                           |sklearn.metrics                    |Balanced_accuracy_score            |
+|imblearn.over_sampling             |RandomOverSampler                  |                                   |Confusion_matrix                   |
+|                                   |SMOTE                              |**Utils**                          |                                   |
+|imblearn.under_sampling            |ClusterCentroids                   |sklearn.model_selection            |train_test_split                   |
 
 ## Part 1 - Logistic Regression Modle with Resampling Techniques
 
