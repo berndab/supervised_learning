@@ -30,6 +30,35 @@ Model performance statistic are generated for each ensemble model.
 
 The performance statistics for the two ensemble machine learning models are compared to the performance statistics of the selected logistic regression sampling model from part one to determine if any of the ensemble learning models perform better at credit risk classification than the model chosen in part one.
 
+### Technical Summary
+
+#### Python Modules and Classes Used
+|Module|Class|
+|-------------|-----|
+|**Environment**||
+|Anaconda||
+|**Application**||
+|Jupyter Notebook||
+|**Data Analysis**||
+|pandas||
+|numpy||
+|**Sampling Algorithms**||
+|imblearn.combine|SMOTEENN|
+|imblearn.over_sampling|RandomOverSampler|
+||SMOTE|
+|imblearn.under_sampling|ClusterCentroids|
+|**Models**||
+|sklearn.linear_model|LogisticRegression|
+|imblearn.ensemble|BalancedRandomForestClassifier|
+|sklearn.ensemble|AdaBoostClassifier|
+|**Scaler**||
+|sklearn.preprocessing|StandardScaler|
+|**Metrics**||
+|imblearn.metrics|classification_report_imbalanced|
+|sklearn.metrics|Balanced_accuracy_score|
+||Confusion_matrix|
+|**Utils**||
+|sklearn.model_selection|train_test_split|
 ## Part 1 - Logistic Regression Modle with Resampling Techniques
 
 ### Model Performance Statistics
