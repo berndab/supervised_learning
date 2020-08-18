@@ -31,20 +31,21 @@ Model performance statistic are generated for each ensemble model.
 The performance statistics for the two ensemble machine learning models are compared to the performance statistics of the selected logistic regression sampling model from part one to determine if any of the ensemble learning models perform better at credit risk classification than the model chosen in part one.
 
 ### Technical Summary
-#### Python Modules and Classes Used
+
+#### Python Modules and Classes
 |Module                             |Class                              |Module                             |Class                              |
 |-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
 |**Environment**                    |                                   |**Models**                         |                                   |
 |Anaconda                           |                                   |sklearn.linear_model               |LogisticRegression                 |
 |**Application**                    |                                   |imblearn.ensemble                  |BalancedRandomForestClassifier     |
-|Jupyter Notebook                   |                                   |**Scaler**                         |                                   |
-|**Data Analysis**                  |                                   |sklearn.ensemble                   |AdaBoostClassifier                 |
+|Jupyter Notebook                   |                                   |sklearn.ensemble                   |AdaBoostClassifier                 |
+|**Data Analysis**                  |                                   |**Feature Scaler**                 |                                   |
 |pandas                             |                                   |sklearn.preprocessing              |StandardScaler                     |
-|numpy                              |                                   |**Metrics**                        |                                   |
-|**Sampling Algorithms**            |                                   |imblearn.metrics                   |classification_report_imbalanced   |
+|numpy                              |                                   |**Model Performance Metrics**      |                                   |
+|**Feature Sampling Algorithms**    |                                   |imblearn.metrics                   |classification_report_imbalanced   |
 |imblearn.combine                   |SMOTEENN                           |sklearn.metrics                    |Balanced_accuracy_score            |
-|imblearn.over_sampling             |RandomOverSampler                  |                                   |Confusion_matrix                   |
-|                                   |SMOTE                              |**Utils**                          |                                   |
+|imblearn.over_sampling             |RandomOverSampler                  |sklearn.metrics                    |Confusion_matrix                   |
+|imblearn.over_sampling             |SMOTE                              |**Utils**                          |                                   |
 |imblearn.under_sampling            |ClusterCentroids                   |sklearn.model_selection            |train_test_split                   |
 
 ## Part 1 - Logistic Regression Modle with Resampling Techniques
